@@ -25,13 +25,13 @@ SCRIS helps them by:
 
 ## 🧠 ML Techniques Used
 
-| Task | Tools |
-|------|-------|
-| Data Preprocessing | Pandas, One-Hot Encoding |
-| Modeling | XGBoost |
-| Class Imbalance | `scale_pos_weight` |
-| Evaluation | ROC AUC, F1 Score |
-| Explainability | SHAP (summary + waterfall plots) |
+| Task               | Tools                         |
+|--------------------|-------------------------------|
+| Data Preprocessing | Pandas, One-Hot Encoding       |
+| Modeling           | XGBoost                        |
+| Class Imbalance    | `scale_pos_weight`             |
+| Evaluation         | ROC AUC, F1 Score              |
+| Explainability     | SHAP (summary + waterfall plots) |
 
 ---
 
@@ -44,7 +44,7 @@ SCRIS helps them by:
 ![Prediction Output](screenshots/Prediction.jpeg)
 
 ### 🔍 SHAP Summary Plot  
-![SHAP Summary](screenshots/sharp summary.png)
+![SHAP Summary](screenshots/shap_summary.png)
 
 ### 🧠 SHAP Waterfall (Single Prediction Explanation)  
 ![SHAP Waterfall](screenshots/individual.png)
@@ -53,6 +53,7 @@ SCRIS helps them by:
 
 ## 📂 File Structure
 
+```plaintext
 📦 scris-ml-app/
 ├── app.py                 # Streamlit web app
 ├── SCRIS_Model.ipynb      # Jupyter notebook for model training
@@ -61,48 +62,48 @@ SCRIS helps them by:
 ├── good_sample.csv        # Sample input file
 ├── README.md              # Project documentation
 └── screenshots/           # Folder containing images below
-    ├── upload.png
-    ├── output.png
+    ├── Streamlit.jpeg
+    ├── Prediction.jpeg
     ├── shap_summary.png
-    └── shap_waterfall.png
+    └── individual.png
+```
 
----
-
-## 🚀 How to Run Locally
-
-### 🔧 Install dependencies
-
+##🚀 How to Run Locally
+##🔧 Install dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
-🖥️ Launch the app
+##🖥️ Launch the app
 bash
 Copy
 Edit
 streamlit run app.py
-🧪 Upload a CSV
-Use good_sample.csv (or your own) to get predictions.
+##🧪 Upload a CSV
+Use good_sample.csv (or your own file) to get predictions instantly.
 
-🧠 Model Explainability (SHAP)
+##🧠 Model Explainability (SHAP)
 We use SHAP to explain:
 
 Which features made the model think an applicant is risky or safe
 
 Why a prediction happened — even for individual customers
 
-This makes the model transparent and business-usable ✅
+✅ This makes the model transparent, trustworthy, and business-ready.
 
 💡 Why This Project?
-✅ End-to-end: ML to UI
+✅ End-to-end: ML to Streamlit UI
 
-✅ Real-world dataset
+✅ Real-world business dataset
 
-✅ Explainable, responsible AI
+✅ Fully explainable AI with SHAP
 
-✅ Internship-ready portfolio
+✅ Interview and internship-ready portfolio
 
-🙋‍♀️ Author
-Valli Viswa Varshini
+##🙋‍♀️ Author
+Valli Viswa Varshini M
 📧 valliviswavarshini@gmail.com
-🔗 GitHub Profile
+🔗 [Linkedin-Valli Viswa Varshini M ](https://www.linkedin.com/in/valli-viswa-varshini-m-0947a7265/)
 
-📣 Like this project?
-⭐️ Star this repo and connect with me on GitHub!
+##📣 Like this project?
+⭐️ Star this repo and share if it helped you!
