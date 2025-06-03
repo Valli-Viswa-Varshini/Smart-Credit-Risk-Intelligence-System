@@ -44,7 +44,7 @@ SCRIS helps them by:
 ![Prediction Output](screenshots/Prediction.jpeg)
 
 ### 🔍 SHAP Summary Plot  
-![SHAP Summary](screenshots/shap_summary.png)
+![SHAP Summary](screenshots/sharp summary.png)
 
 ### 🧠 SHAP Waterfall (Single Prediction Explanation)  
 ![SHAP Waterfall](screenshots/individual.png)
